@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiolaSburataFC</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: 
+                linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("https://hips.hearstapps.com/hmg-prod/images/gettyimages-1164563871.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+            color: white;
+        }
+
+        header {
+            background: #e45bbd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #e45bbd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(0,0,0,0.4);
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #e45bbd;
+        }
+
+        /* Box trofei */
+        .trofei-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .trofeo {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            color: black;
+        }
+
+        .trofeo img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* NUOVI RIQUADRI FOTO */
+        .foto-box {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 12px;
+            margin: 25px 0;
+            text-align: center;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .foto-box img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+
+        .foto-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #e45bbd;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #e45bbd;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>In Concordia Stamus FC</h1>
+        <p>Fondato nel 2024 – Passione, storia, vittorie</p>
+    </header>
+
+    <nav>
+        <a href="#storia">Storia</a>
+        <a href="#trofei">Trofei</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+
+    <section id="storia">
+        <h2>La Storia del Club</h2>
+        <p>
+            La squadra nasce nel 2024 come piccolo club locale. Nel corso degli anni cresce,
+            conquista i primi campionati e diventa un punto di riferimento per la città.
+        </p>
+
+        <!-- FOTO BOX 1 -->
+        <div class="foto-box">
+            <img src="squadra.jpg" alt="Squadra 2024">
+            <p>La squadra al completo – Stagione 2024</p>
+        </div>
+
+        <p>
+            Già al primo anno arriva la svolta: il club ottiene la promozione alla divisione Elite 
+            e inizia a costruire una tradizione vincente fatta di talento, "disciplina" e spirito di squadra.
+        </p>
+
+        <!-- FOTO BOX 2 -->
+        <div class="foto-box">
+            <img src="logo.jpg" alt="logo">
+            <p>Il nostro logo</p>
+        </div>
+
+        <p>
+            Oggi la CiolaSburataFC è una realtà consolidata, con un settore giovanile d’eccellenza
+            e una tifoseria appassionata.
+        </p>
+
+        <!-- FOTO BOX 3 -->
+        <div class="foto-box">
+            <img src="tifosi.jpg" alt="Tifosi in festa">
+            <p>I tifosi in festa dopo la promozione</p>
+        </div>
+
+    </section>
+
+    <section id="trofei">
+    <h2>L'impresa storica</h2>
+    <div class="trofei-container">
+
+        <div class="trofeo">
+            <img src="trofeo.jpg" alt="Trofeo playoff 2024">
+            <h3>Divisione Elite 2024</h3>
+            <p>La prima storica vittoria dei playoff finali.</p>
+        </div>
+
+    </div>
+</section>
+
+    <section id="contatti">
+        <h2>Contatti</h2>
+        <p>Email: ciolasburatafc@gmail.com</p>
+        <p>Stadio: Via Del Valle Ibercula, Buenos Aires</p>
+        <p>TikTok: ci0la.sburatafc</p>
+        <p>Instagram: ciolasburatafc</p>
+    </section>
+
+    <footer>
+        © 2026 CiolaSburataFC – Tutti i diritti riservati
+    </footer>
+
+</body>
+</html>
